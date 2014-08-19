@@ -1,5 +1,5 @@
 from tealight.logo import move, turn
-filled = True
+def filled = True:
 side = 80
 def square(side):
   for i in range(0,4):
@@ -16,5 +16,5 @@ def Chessboard():
     filled = false
   else:
     square(side)
-    filled = true
+    filled = true 
 Chessboard()
