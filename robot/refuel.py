@@ -8,23 +8,17 @@ from tealight.robot import (move,
 
 # Add your code here
 while True:
- # move()
-  if(smell() > 0):
-    for i in range (0,4):
-      turn(i)
-      while(look() == "fruit"):
-        move()  
-    move()    
-  #if(left_side() == "fruit"):
-  #  turn(-1)
-  #elif(right_side() == "fruit"):
-  #  turn(1)
-  #elif (look() == "fruit"):
-  #  while (look() == "fruit"):
-   #   move()
-  #if(left_side() == None):
-  #  turn(-1)
-  #  move() 44
+  move()
+  if(left_side() == "fruit"):
+    turn(-1)
+  elif(right_side() == "fruit"):
+    turn(1)
+  elif (look() == "fruit"):
+    while (look() == "fruit"):
+      move()
+  if(left_side() == None):
+    turn(-1)
+    move() 44
    
   if(touch() == "wall"):
     if(left_side() != "wall"):
