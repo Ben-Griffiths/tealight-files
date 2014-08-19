@@ -21,7 +21,7 @@ while true:
   if(touch == "wall"):
     if(left_side() != "wall"):
       turn(-1)
-    else if(right_side() != "wall"):
+    elif(right_side() != "wall"):
       turn(1)
   
 
