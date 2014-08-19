@@ -9,8 +9,8 @@ from tealight.robot import (move,
 # Add your code here
 while True:
   move()
-  if(left_side() == "fruit"):
-    turn(-1)
+ # if(left_side() == "fruit"):
+ #   turn(-1)
   elif(right_side() == "fruit"):
     turn(1)
   elif (look() == "fruit"):
