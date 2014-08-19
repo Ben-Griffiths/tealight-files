@@ -18,7 +18,7 @@ while True:
       move()
   if(left_side() == None):
     turn(-1)
-    move() 44
+    move() 
    
   if(touch() == "wall"):
     if(left_side() != "wall"):
