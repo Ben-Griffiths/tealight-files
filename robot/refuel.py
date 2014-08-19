@@ -8,7 +8,7 @@ from tealight.robot import (move,
 
 # Add your code here
 while True:
-  move()
+ # move()
   if(smell() >= 1):
     for i in range (0,4):
       turn(i)
@@ -31,7 +31,9 @@ while True:
       turn(-1)
       move()
     elif(right_side() != "wall"):
-      turn(1)      
+      turn(1) 
+      move()
     else:
       turn(2)
+      move()
   
