@@ -1,7 +1,7 @@
 from tealight.logo import move, turn
 side = 80
 def square(side):
-  for i in range(0,4):
+  for i in range(0,3):
     move(side)
     turn(90)
     if(i == 4):
