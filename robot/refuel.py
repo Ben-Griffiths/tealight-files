@@ -12,7 +12,7 @@ while True:
   if(smell == "fruit"):
     for i in range (0,4):
       turn(i)
-      while(look == "fruit"):
+      while(look() == "fruit"):
         move()  
         
   #if(left_side() == "fruit"):
