@@ -7,7 +7,7 @@ from tealight.robot import (move,
                             right_side)
 
 # Add your code here
-while true:
+while True:
   move()
   if(left_side() == "fruit"):
     turn(-1)
