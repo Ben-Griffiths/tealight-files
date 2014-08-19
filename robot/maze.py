@@ -18,7 +18,7 @@ while True:
   elif (look() == "fruit"):
     while (look() == "fruit"):
       move()
-  if(left_side() == "none"):
+  if(left_side() == None):
     turn(-1)
     move()
   
