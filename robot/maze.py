@@ -12,7 +12,7 @@ while true:
   if(left_side() == "fruit"):
     turn(-1)
     move()
-  else if (right_side() == "fruit"):
+  else if(right_side() == "fruit"):
     turn(1)
     move()
   else if (look == "fruit"):
