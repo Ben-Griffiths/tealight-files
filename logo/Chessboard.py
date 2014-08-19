@@ -19,5 +19,6 @@ def Chessboard(filled):
     filled = False
   else:
     square(side)
-    filled = True 
-Chessboard(True)
+    filled = True
+for i in the range(0,8):
+  Chessboard(True)
