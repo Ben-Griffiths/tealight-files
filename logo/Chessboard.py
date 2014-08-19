@@ -5,13 +5,13 @@ def square(side):
     move(side)
     turn(90)
     if(i == 4):
-      move(-90)
+      move(-80)
 def square_filled(side):
   for i in range(0,3):
     move(side)
     turn(90)
     if(i == 4):
-      move(-90)
+      move(-80)
     
 def Chessboard(filled):
   if(filled == True):
