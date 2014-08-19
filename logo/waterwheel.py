@@ -8,7 +8,7 @@ def square(side):
 
 def waterwheel(edges, size):
   angle = 360 / edges
-  decoration = size / 4
+  decoration = size / 5
   for i in range(0, edges):
     move(size)
     square(decoration)
