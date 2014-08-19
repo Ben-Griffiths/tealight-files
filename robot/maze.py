@@ -25,6 +25,8 @@ while True:
     elif(right_side() != "wall"):
       turn(1)
       move()
+    else:
+      turn(2)
   
 
     
