@@ -9,4 +9,4 @@ from tealight.robot import (move,
 # Add your code here
 move()
 move()
-turn()
+turn(1)
