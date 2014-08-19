@@ -16,9 +16,9 @@ while True:
   elif (look() == "fruit"):
     while (look() == "fruit"):
       move()
-  if(left_side() == None):
-    turn(-1)
-    move()
+  #if(left_side() == None):
+  #  turn(-1)
+  #  move()
    
   if(touch() == "wall"):
     if(left_side() != "wall"):
