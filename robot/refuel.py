@@ -9,7 +9,7 @@ from tealight.robot import (move,
 # Add your code here
 while True:
   move()
-  if(smell() == "fruit"):
+  if(smell() >= 1):
     for i in range (0,4):
       turn(i)
       while(look() == "fruit"):
