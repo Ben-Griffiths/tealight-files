@@ -12,16 +12,16 @@ while true:
   if(left_side() == "fruit"):
     turn(-1)
     move()
-  else if(right_side() == "fruit"):
+  elif(right_side() == "fruit"):
     turn(1)
     move()
-  else if (look == "fruit"):
+  elif (look == "fruit"):
     while (look == "fruit"):
       move()
   if(touch == "wall"):
-    if(left_side != "wall"):
+    if(left_side() != "wall"):
       turn(-1)
-    else if(rightside != "wall"):
+    else if(right_side() != "wall"):
       turn(1)
   
 
