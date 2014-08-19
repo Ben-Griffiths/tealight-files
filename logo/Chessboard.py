@@ -17,4 +17,4 @@ def Chessboard():
   else:
     square(side)
     filled = true
-chessboard()
+Chessboard()
