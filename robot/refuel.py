@@ -14,7 +14,7 @@ while True:
       turn(i)
       while(look() == "fruit"):
         move()  
-        
+    move()    
   #if(left_side() == "fruit"):
   #  turn(-1)
   #elif(right_side() == "fruit"):
