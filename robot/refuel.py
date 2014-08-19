@@ -9,13 +9,17 @@ from tealight.robot import (move,
 # Add your code here
 while True:
   move()
-  if(left_side() == "fruit"):
-    turn(-1)
-  elif(right_side() == "fruit"):
-    turn(1)
-  elif (look() == "fruit"):
-    while (look() == "fruit"):
+ # if(left_side() == "fruit"):
+ #   turn(-1)
+ # elif(right_side() == "fruit"):
+ #   turn(1)
+ # elif (look() == "fruit"):
+ #   while (look() == "fruit"):
+ #     move()
+  for i in range(0,4):
+    while(look == "fruit"):
       move()
+    turn(1)
   #if(left_side() == None):
   #  turn(-1)
   #  move()
