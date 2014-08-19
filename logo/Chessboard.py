@@ -1,4 +1,5 @@
 from tealight.logo import move, turn
 
 def Chessboard():
-  for 
+  for i in range (0,4):
+     
