@@ -17,7 +17,7 @@ while True:
  #   while (look() == "fruit"):
  #     move()
   for i in range(0,4):
-    while(look == "fruit"):
+    while(look() == "fruit"):
       move()
     turn(1)
   #if(left_side() == None):
