@@ -8,6 +8,8 @@ def square_filled(side):
   for i in range(0,4):
     move(side)
     turn(-90)
+    if(i == 4):
+      move(-90)
     
 def Chessboard(filled):
   if(filled == True):
