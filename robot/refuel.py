@@ -25,8 +25,8 @@ while True:
       turn(-1)
       move()
       if(smell() == 0):
-         move()
-         move()
+         
+         
     elif(right_side() != "wall"):
       turn(1) 
       move()
