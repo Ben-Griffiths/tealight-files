@@ -6,7 +6,7 @@ def Chessboard():
      turn(90)
      move(10)
      turn(90)
-     move(-8)
+     move(-80)
      turn(90)
       
 Chessboard()    
