@@ -47,12 +47,12 @@ def handle_frame():
   color("blue")
   
   spot(x,y,8)
-def handle_keydown(key):
-  global vx, vy, x, y
+def handle_frame():
+  global vx, vy, x, y, ax, ay
   
   if x == 0 or x == 900:
     vx = -vx
-    
+    ax = (-0.8 * ax)
   
   
     
