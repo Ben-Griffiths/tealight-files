@@ -22,7 +22,9 @@ def handle_keydown(key):
     ay = -power
   elif key == "down":
     ay = power
-  
+  if x == 0 or x == 900:
+    vx = (-vx)
+    ax = (-0.8 * ax) 
 
 def handle_keyup(key):
   global ax, ay
