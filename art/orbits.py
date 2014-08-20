@@ -45,10 +45,10 @@ def handle_frame():
   y = y + vy
   
   color("blue")
-  if x == 0 or x == 900:
+  if x <= 0 or x >= 900:
     vx = -vx
     ax = (-0.8 * ax)
-  if y == 0 or y == 900:
+  if y <= 0 or y >= 900:
     vy = -vy
     ay = (-0.8* ay)
   spot(x,y,8)
