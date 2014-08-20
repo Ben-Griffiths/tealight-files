@@ -6,7 +6,7 @@ import (numpy)
 
 #Timer
 
-numpy.array(Gridarray[7][7])
+Gridarray[[][]]
 
 for i in range (0,7):
   for j in range (0,7):
