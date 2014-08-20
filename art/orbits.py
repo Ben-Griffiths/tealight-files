@@ -46,9 +46,9 @@ def handle_frame():
   color("blue")
   
   spot(x,y,8)
-if (vx > 0):
-  vx = vx -1
-if (vy > 0):
+#if (vx > 0):
+ # vx = vx -1
+#if (vy > 0):
   
   
     
