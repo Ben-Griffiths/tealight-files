@@ -5,7 +5,8 @@ y = 400
 vx = 0
 vy = 0
 ax = 0
-ay = 3
+ay = 0
+gravity = 1 + ay
 
 power = 0.1
 
@@ -37,7 +38,7 @@ def handle_frame():
   
   spot(x,y,8)
   vx = vx + ax
-  vy = vy + ay
+  vy = vy + gravity
   
   x = x + vx
   y = y + vy
@@ -45,6 +46,9 @@ def handle_frame():
   color("blue")
   
   spot(x,y,8)
+if (vx > 0):
+  vx = vx -1
+if (vy > 0):
   
   
     
