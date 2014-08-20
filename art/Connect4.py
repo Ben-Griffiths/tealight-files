@@ -4,7 +4,7 @@
 #Win conds
 
 #Timer
-array = [[0,0,0,0,0,0,0],
+Gridarray = [[0,0,0,0,0,0,0],
          [],
          [],
          [],
