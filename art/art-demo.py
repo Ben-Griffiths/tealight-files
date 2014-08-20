@@ -11,7 +11,7 @@ background("paper.jpg")
 
 line(0,0,screen_width, screen_height)
 
-spot(200,300, 20)
+spot(200,300, 200)
 
 circle(300,200, 20)
 
