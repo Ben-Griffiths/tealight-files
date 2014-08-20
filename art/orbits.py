@@ -1,7 +1,7 @@
 from tealight.art import (color, line, spot, circle, box, image, text, background)
 
-x = 500
-y = 500
+x = 1000
+y = 1000
 friction = 0.05
 vx = 0
 vy = 0
@@ -22,6 +22,7 @@ def handle_keydown(key):
     ay = -power
   elif key == "down":
     ay = power
+  
 
 def handle_keyup(key):
   global ax, ay
