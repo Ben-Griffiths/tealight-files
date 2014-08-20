@@ -4,7 +4,13 @@
 #Win conds
 
 #Timer
-array = [[],[],[],[],[],[],[]]
+array = [[0,0,0,0,0,0,0],
+         [],
+         [],
+         [],
+         [],
+         [],
+         []]
 
 for i in range (0,7):
   for j in range (0,7):
