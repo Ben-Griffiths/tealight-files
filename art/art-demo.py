@@ -9,7 +9,7 @@ print screen_height
 
 background("paper.jpg")
 
-line(5,5,screen_width, screen_height)
+line(0,0,screen_width, screen_height)
 
 spot(200,300, 20)
 
