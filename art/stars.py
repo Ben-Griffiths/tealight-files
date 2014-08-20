@@ -2,7 +2,7 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 
 from math import sin, cos, pi
 
-def star(x, y, c, size, spines):
+def star(x, y, c, radx, rady, spines):
   
   color(c)
   
@@ -16,6 +16,6 @@ def star(x, y, c, size, spines):
     
     angle = angle + (2 * pi / spines)
 
-star(300, 300, "blue", 100, 50)
-star(600, 400, "purple", 200, 50)
-star(450, 200, "orange", 125, 50)
+star(300, 300, "blue", 100, 300, 50)
+star(600, 400, "purple", 200,300, 50)
+star(450, 200, "orange", 125, 300, 50)
