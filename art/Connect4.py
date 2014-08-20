@@ -1,4 +1,3 @@
-import (numpy)
 #Create grid
 #Draw grid
 #Play + check legitimacy
