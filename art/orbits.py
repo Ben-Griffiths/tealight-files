@@ -2,9 +2,10 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 
 x = 500
 y = 400
+friction = 0.05
 vx = 0
 vy = 0
-ax = 0
+ax = 0 
 ay = 0
 
 power = 0.2
@@ -36,8 +37,8 @@ def handle_frame():
   color("white")
   
   spot(x,y,8)
-  vx = vx + ax
-  vy = vy + ay + 0.1
+  vx = (vx*0.9) + ax 
+  vy = (vy*0.9) + ay + 0.1
   
   x = x + vx
   y = y + vy
