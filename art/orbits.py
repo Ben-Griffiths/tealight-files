@@ -1,7 +1,7 @@
 from tealight.art import (color, line, spot, circle, box, image, text, background)
 
-x = 1000
-y = 1000
+x = 999
+y = 999
 friction = 0.05
 vx = 0
 vy = 0
