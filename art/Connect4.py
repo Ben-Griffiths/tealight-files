@@ -5,7 +5,7 @@
 
 #Timer
 
-Gridarray[7][7]
+def Gridarray[7][7]
 
 for i in range (0,7):
   for j in range (0,7):
