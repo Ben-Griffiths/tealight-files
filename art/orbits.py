@@ -6,7 +6,7 @@ vx = 0
 vy = 0
 ax = 0
 ay = 0
-gravity = 1 + ay
+gravity = 0.1 + ay
 
 power = 0.1
 
