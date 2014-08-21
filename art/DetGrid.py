@@ -72,9 +72,9 @@ def handle_mousedown(x,y):
   if (Pturn == True):
     Pturn = False
     color("red")
-    spot(CentreX,CentreY, 35)
+    spot(CentreX+1,CentreY+1, 35)
   else:
     Pturn = True
     color("yellow")
-    spot(CentreX,CentreY, 35)
+    spot(CentreX+1,CentreY+1, 35)
   
