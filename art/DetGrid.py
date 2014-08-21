@@ -7,11 +7,9 @@ def handle_mousedown(x,y):
   spot(x,y,10)
   Array_X = x
   Array_Y = y
-  print x
-  print y
-  
+    
   if(x >= 125 and x < 225):
-    print 1
+    print  1
   elif(x >= 225 and x < 325):
     print 2
   elif(x >= 325 and x < 425):
@@ -25,7 +23,20 @@ def handle_mousedown(x,y):
   elif(x >= 725 and x < 825):
     print 7
     
-    
+  if(y >= 200 and y < 300):
+    print 1
+  elif(y >= 300 and y < 400):
+    print 2
+  elif(y >= 400 and y < 500):
+    print 3
+  elif(y >= 500 and y < 600):
+     print 4
+  elif(y >= 600 and y < 700):
+    print 5
+  elif(y >= 700 and y < 800):
+    print 6
+  elif(y >= 800 and y < 900):
+    print 7  
   
   
 
