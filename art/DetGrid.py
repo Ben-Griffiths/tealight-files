@@ -5,8 +5,11 @@ from github.griffithsben.art.connect4_defs import *
 print grid_width
 
 def handle_mousemove(x,y):
-  print (x,y)
   
+  i = (x - offset_x) / cell_size
+  j = (y - offset_y) / cell_size
+  
+  print (x,y,i,j)
   
 
 Array_X = 0
