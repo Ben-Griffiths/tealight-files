@@ -1,10 +1,11 @@
 from tealight.art import (color, line, spot, circle, box, image, text, background)
 Array_X = 0
 Array_Y = 0
+Pturn = true
 def handle_mousedown(x,y):
   global Array_X
   global Array_y
-  spot(x,y,10)
+  #global Pturn
   Array_X = x
   Array_Y = y
     
@@ -38,7 +39,9 @@ def handle_mousedown(x,y):
   elif(y >= 800 and y < 900):
     print 7  
   
-  
+  #if (Pturn == True):
+  #  Pturn = false
+    
 
 
   
