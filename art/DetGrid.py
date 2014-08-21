@@ -2,7 +2,8 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 
 from github.griffithsben.art.connect4_defs import *
 
-print grid_width
+matrix = initialiseMatrix()
+
 Pturn = True
 def handle_mousedown(x,y):
   global Pturn
@@ -23,4 +24,7 @@ def handle_mousedown(x,y):
   spot(CentreX-1,CentreY-1, 35)
  # print (CentreX,CentreY,Array_X,Array_Y)
   
-
+if (gridarray[i,j-1] != 0):
+  update colour and array
+else
+  set up a goto
