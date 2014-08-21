@@ -25,10 +25,10 @@ def handle_mousedown(x,y):
   print (CentreX,CentreY,Array_X,Array_Y)
   
 
-Array_X = 0
-Array_Y = 0
-CentreX = 0
-CentreY = 0
+#Array_X = 0
+#Array_Y = 0
+#CentreX = 0
+#CentreY = 0
 #Pturn = True
 def hhandle_mousedown(x,y):
   global Array_X
