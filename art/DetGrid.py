@@ -29,7 +29,7 @@ def handle_mousedown(x,y):
       Pturn = 1
   
   
-   spot(CentreX-1,CentreY-1, 35)
+  spot(CentreX-1,CentreY-1, 35)
 
      
  
