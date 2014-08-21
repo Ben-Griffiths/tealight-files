@@ -8,8 +8,8 @@ def handle_mousedown(x,y):
   
   Array_X = (x - offset_x) / cell_size
   Array_Y = (y - offset_y) / cell_size
-  CentreX = (50*i) + offset_x
-  CentreY = (50*j) + offset_y
+  CentreX = (50*Array_X) + offset_x
+  CentreY = (50*Array_Y) + offset_y
   
   print (CentreX,CentreY,i,j)
   
