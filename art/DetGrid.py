@@ -39,7 +39,7 @@ def handle_mousedown(x,y):
       CentreX = (Array_X+1)*100+75
       CentreY = (2+Array_Y)*100 +50  
       spot(CentreX-1,CentreY-1, 35)
-      break
+      return 0
     else:
       if (matrix[Array_X][6] != 0):
         Array_Y = 6 
