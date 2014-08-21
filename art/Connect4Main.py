@@ -1,6 +1,4 @@
-import github.BasRegi.art.connect4_grid
+import github.BasRegi.art.connect4_grid as g
 
-#def handle_
-#for i in range (0,7):
-#  for j in range (0,7):
-   
+g.draw_grid()
+
