@@ -17,13 +17,13 @@ def handle_mousedown(x,y):
   if (Pturn == 1):    
     if(CentreX != 0):         
       
-    #  matrix[Array_X][Array_Y] = Pturn
+      matrix[Array_X][Array_Y] = Pturn
       print matrix
       color("red")
       Pturn = -1    
   else:
     if(CentreX != 0):        
-    #  matrix[Array_X][Array_Y] = Pturn
+      matrix[Array_X][Array_Y] = Pturn
       print matrix
       color("yellow")
       Pturn = 1
