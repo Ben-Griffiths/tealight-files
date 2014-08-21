@@ -30,14 +30,14 @@ def handle_mousedown(x,y):
       
   spot(CentreX-1,CentreY-1, 35)
 
-  if(matrix[Array_X][Array_Y-1] !=0
+
      
   for i in range (0,6):
     if matrix[Array_X][i] == 1 or matrix[Array_X][i] == -1:
       Array_Y = i-1
       matrix[Array_X][Array_Y] = Pturn
       break
-    
+  
   
   # print (CentreX,CentreY,Array_X,Array_Y)
   
