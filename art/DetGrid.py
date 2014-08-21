@@ -27,7 +27,7 @@ def handle_mousedown(x,y):
       print matrix
       color("yellow")
       Pturn = 1
-  spot(CentreX-1,CentreY-1, 35)
+  
   
 
 
@@ -47,8 +47,9 @@ def handle_mousedown(x,y):
  #       CentreY = (2+Array_Y)*100 +50  
  #      spot(CentreX-1,CentreY-1, 35)
    
-  
-  
+ if matrix[Array_X][Array_Y-1] != 0:
+      spot(CentreX-1,CentreY-1, 35)
+ 
   # print (CentreX,CentreY,Array_X,Array_Y)
   
 #if (gridarray[i,j-1] != 0):
