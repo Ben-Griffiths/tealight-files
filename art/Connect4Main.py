@@ -1,1 +1,1 @@
-import github.v3504.art.connect4_grid
+import github.BasRegi.art.connect4_grid
