@@ -3,7 +3,7 @@ Array_X = 0
 Array_Y = 0
 CentreX = 0
 CentreY = 0
-#Pturn = True
+Pturn = True
 def handle_mousedown(x,y):
   global Array_X
   global Array_y
