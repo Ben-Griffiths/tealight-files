@@ -49,7 +49,7 @@ def handle_mousedown(x,y):
    
   if matrix[Array_Y-1][Array_X] != 0:
       spot(CentreX-1,CentreY-1, 35)
- 
+  
   # print (CentreX,CentreY,Array_X,Array_Y)
   
 #if (gridarray[i,j-1] != 0):
