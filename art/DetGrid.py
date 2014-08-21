@@ -8,8 +8,8 @@ def handle_mousedown(x,y):
   global Pturn
   Array_X = (x - offset_x) / cell_size
   Array_Y = (y - offset_y) / cell_size
-  CentreX = ((50*Array_X) + offset_x + 50)*4
-  CentreY = ((50*Array_Y) + offset_y + 50)*4
+  CentreX = (50*Array_X) + offset_x + 50
+  CentreY = (50*Array_Y) + offset_y + 50
   
   if (Pturn == True):
     Pturn = False
