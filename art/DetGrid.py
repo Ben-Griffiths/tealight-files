@@ -17,6 +17,7 @@ def handle_mousedown(x,y):
     if(CentreX != 0):         
       Pturn = False
       matrix[Array_X][Array_Y] = 1
+      print matrix
       color("red")
           
   else:
