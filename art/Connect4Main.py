@@ -1,4 +1,4 @@
 #import github.BasRegi.art.connect4_grid as grid
-import github.GriffithsBen.art.DetectionGrid as grid2
+import github.GriffithsBen.art.DetGrid
 #grid.drawGrid()
 
