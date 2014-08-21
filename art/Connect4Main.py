@@ -1,6 +1,6 @@
 import github.BasRegi.art.connect4_grid as grid
-import github.andyandywells.matrixfunctions as matrixfunctions
+import github.andyandywells.matrixFunctions as matrixFunctions
 from github.GriffithsBen.art.DetGrid import *
-matrixfunctions.matrixfunctions
+matrixFunctions.matrixFunctions()
 grid.drawGrid() 
 
