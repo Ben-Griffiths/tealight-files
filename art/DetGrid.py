@@ -11,11 +11,11 @@ def handle_mousedown(x,y):
   print y
 
 #select case
-if(x >= 0 and x <= 50):
-  #array x coord is set as X
+#if(x >= 0 and x <= 50):
+#  #array x coord is set as X
   
   
-if(yfdrhnitfj)
+#if(yfdrhnitfj)
   
   
   
