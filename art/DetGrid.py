@@ -1,4 +1,7 @@
 from tealight.art import (color, line, spot, circle, box, image, text, background)
+
+from github.griffithsben.art.connect4_defs import *
+
 Array_X = 0
 Array_Y = 0
 CentreX = 0
