@@ -2,6 +2,7 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 from github.andyandywells.art.matrixFunctions import *
 from github.griffithsben.art.connect4_defs import *
 
+
 matrix = initialiseMatrix()
 
 Pturn = 1
@@ -32,8 +33,5 @@ def handle_mousedown(x,y):
         print matrix      
         Pturn = 1
   
-  if (matrix[Array_X][Array_Y] == 0):
-    spot(CentreX-1,CentreY-1, 35)
-
-     
+  print(checkwin(matrix))
  
