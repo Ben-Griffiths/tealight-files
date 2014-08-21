@@ -10,5 +10,13 @@ def handle_mousedown(x,y):
   print x
   print y
 
+#select case
+if(x >= 0 and x <= 50):
+  #array x coord is set as X
+  
+  
+if(yfdrhnitfj)
+  
+  
   
   
