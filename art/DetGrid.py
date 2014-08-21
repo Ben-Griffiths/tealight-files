@@ -29,30 +29,7 @@ def handle_mousedown(x,y):
       Pturn = 1
   
   
-
+   spot(CentreX-1,CentreY-1, 35)
 
      
- # for i in range (0,6):
- #   if matrix[Array_X][i] == 1 or matrix[Array_X][i] == -1:
- #     Array_Y = i-1
- #     matrix[Array_X][Array_Y] = Pturn      
- #     CentreX = (Array_X+1)*100+75
- #     CentreY = (2+Array_Y)*100 +50  
- #     spot(CentreX-1,CentreY-1, 35)
- #     return 0
- #   else:
- #     if (matrix[Array_X][6] != 0):
- #       Array_Y = 6 
- #       CentreX = (Array_X+1)*100+75
- #       CentreY = (2+Array_Y)*100 +50  
- #      spot(CentreX-1,CentreY-1, 35)
-   
-  if matrix[Array_Y-1][Array_X] != 0:
-      spot(CentreX-1,CentreY-1, 35)
-  
-  # print (CentreX,CentreY,Array_X,Array_Y)
-  
-#if (gridarray[i,j-1] != 0):
-#  update colour and array
-#else
-#  set up a goto
+ 
