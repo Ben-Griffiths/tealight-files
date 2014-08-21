@@ -6,6 +6,8 @@ print grid_width
 
 def handle_mousemove(x,y):
   print (x,y)
+  
+  
 
 Array_X = 0
 Array_Y = 0
