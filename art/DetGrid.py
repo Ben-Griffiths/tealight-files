@@ -36,7 +36,7 @@ def handle_mousedown(x,y):
     if matrix[Array_X][i] == 1 or matrix[Array_X][i] == -1:
       Array_Y = i-1
       matrix[Array_X][Array_Y] = Pturn      
-      break;
+      break
     else:
       Array_Y = 6 
   CentreX = (Array_X+1)*100+75
