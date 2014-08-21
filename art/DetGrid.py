@@ -7,7 +7,10 @@ CentreY = 0
 def handle_mousedown(x,y):
   global Array_X
   global Array_y
-  #global Pturn
+  global CentreX
+  global CentreY
+  global Pturn
+  
       
   if(x >= 125 and x < 225):
     print  1
