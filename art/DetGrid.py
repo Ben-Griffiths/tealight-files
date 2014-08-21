@@ -3,9 +3,9 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 from github.griffithsben.art.connect4_defs import *
 
 print grid_width
-
+Pturn = True
 def handle_mousedown(x,y):
-  
+  global Pturn
   Array_X = (x - offset_x) / cell_size
   Array_Y = (y - offset_y) / cell_size
   CentreX = (50*Array_X) + offset_x
@@ -30,7 +30,7 @@ Array_X = 0
 Array_Y = 0
 CentreX = 0
 CentreY = 0
-Pturn = True
+#Pturn = True
 def hhandle_mousedown(x,y):
   global Array_X
   global Array_y
