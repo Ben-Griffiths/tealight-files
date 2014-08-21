@@ -11,6 +11,18 @@ def handle_mousedown(x,y):
   CentreX = (50*Array_X) + offset_x
   CentreY = (50*Array_Y) + offset_y
   
+  if (Pturn == True):
+    Pturn = False
+    if(CentreX != 0):         
+      Pturn = False
+      color("red")
+      spot(CentreX-1,CentreY-1, 35)
+    
+  else:
+    if(CentreX != 0):      
+      Pturn = True
+      color("yellow")
+      spot(CentreX-1,CentreY-1, 35)
   print (CentreX,CentreY,Array_X,Array_Y)
   
 
