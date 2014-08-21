@@ -1,3 +1,4 @@
-import github.BasRegi.art.connect4_grid as g
+import github.BasRegi.art.connect4_grid as grid
 
+grid.drawGrid()
 
