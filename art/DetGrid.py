@@ -6,10 +6,12 @@ print grid_width
 
 def handle_mousedown(x,y):
   
-  i = (x - offset_x) / cell_size
-  j = (y - offset_y) / cell_size
+  Array_X = (x - offset_x) / cell_size
+  Array_Y = (y - offset_y) / cell_size
+  CentreX = (50*i) + offset_x
+  CentreY = (50*j) + offset_y
   
-  print (x,y,i,j)
+  print (CentreX,CentreY,i,j)
   
 
 Array_X = 0
