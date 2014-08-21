@@ -25,9 +25,9 @@ def handle_mousedown(x,y):
     CentreX = 375
     Array_X = 2
   elif(x >= 425 and x < 525):
-     print 4
-      CentreX = 475
-      Array_X = 3
+    print 4
+    CentreX = 475
+    Array_X = 3
   elif(x >= 525 and x < 625):
     print 5
     CentreX =575
@@ -54,9 +54,9 @@ def handle_mousedown(x,y):
     CentreY = 450
     Array_Y = 2
   elif(y >= 500 and y < 600):
-     print 4
-      CentreY = 550
-      Array_Y = 3
+    print 4
+    CentreY = 550
+    Array_Y = 3
   elif(y >= 600 and y < 700):
     print 5
     CentreY = 650
@@ -70,9 +70,9 @@ def handle_mousedown(x,y):
     Array_Y = 6
   
   if (Pturn == True):
-     Pturn = False
-     color("red")
-     spot(CentreX,CentreY, 35)
+    Pturn = False
+    color("red")
+    spot(CentreX,CentreY, 35)
   else:
     Pturn = True
     color("yellow")
