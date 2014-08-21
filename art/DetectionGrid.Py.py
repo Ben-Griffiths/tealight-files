@@ -5,6 +5,10 @@ def handle_mousedown(x,y):
   global Array_X
   global Array_y
   spot(x,y,10)
+  Array_X = x
+  Array_Y = y
+  print x
+  print y
 
   
   
