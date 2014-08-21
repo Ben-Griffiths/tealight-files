@@ -1,4 +1,4 @@
 import github.BasRegi.art.connect4_grid as grid
-import github.Ben-Griffiths.art.DetectionGrid.PY
+import github.Ben-Griffiths.art.DetectionGrid.Py
 grid.drawGrid()
 
