@@ -4,4 +4,5 @@ y = 10
 def Detection_Grid():
   global x
   global y
-  
+  spot(x,y,10)
+Detection_Grid()
