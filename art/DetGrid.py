@@ -15,13 +15,12 @@ def handle_mousedown(x,y):
     if(CentreX != 0):         
       Pturn = False
       color("red")
-      spot(CentreX-1,CentreY-1, 35)
-    
+          
   else:
     if(CentreX != 0):      
       Pturn = True
       color("yellow")
-      spot(CentreX-1,CentreY-1, 35)
-  print (CentreX,CentreY,Array_X,Array_Y)
+  spot(CentreX-1,CentreY-1, 35)
+ # print (CentreX,CentreY,Array_X,Array_Y)
   
 
