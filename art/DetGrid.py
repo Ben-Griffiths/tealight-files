@@ -15,23 +15,26 @@ def handle_mousedown(x,y):
     
   CentreX = (Array_X+1)*100+75
   CentreY = (2+Array_Y)*100 +50  
-  if (Pturn == 1):    
-    if(CentreX != 0):         
-      if (matrix[Array_X][Array_Y] == 0):
-        color("red")
-        spot(CentreX-1,CentreY-1, 35)
-        matrix[Array_X][Array_Y] = Pturn
-        print matrix
-      
-        Pturn = -1    
+  if (Pturn == 1): 
+    color("red")
+    Pturn = -1 
   else:
-    if(CentreX != 0):
-      if (matrix[Array_X][Array_Y] == 0):
-        color("yellow")
-        spot(CentreX-1,CentreY-1, 35)
-        matrix[Array_X][Array_Y] = Pturn
-        print matrix      
-        Pturn = 1
+    color("yellow")
+    Pturn = 1
+    
+  if(CentreX != 0):         
+    if (matrix[Array_X][Array_Y] == 0):
+        
+      spot(CentreX-1,CentreY-1, 35)
+      matrix[Array_X][Array_Y] = Pturn
+      print matrix
+      
+         
+       
+        
+  
+  print(checkwin(matrix))
+ 
   
   print(checkwin(matrix))
  
