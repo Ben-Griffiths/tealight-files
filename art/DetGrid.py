@@ -33,5 +33,5 @@ def handle_mousedown(x,y):
         print matrix      
         Pturn = 1
   
-  print(checkwin(matrix))
+  checkwin(matrix)
  
