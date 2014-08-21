@@ -11,7 +11,7 @@ def handle_mousedown(x,y):
   CentreX = (50*Array_X) + offset_x
   CentreY = (50*Array_Y) + offset_y
   
-  print (CentreX,CentreY,i,j)
+  print (CentreX,CentreY,Array_X,Array_Y)
   
 
 Array_X = 0
