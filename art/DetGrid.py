@@ -13,9 +13,7 @@ def handle_mousedown(x,y):
 #if(x >= 0 and x <= 50):
 #
 #  #array x coord is set as X
-def handle_frame(x,y):
-  print x
-  print y
+
   
   
   
