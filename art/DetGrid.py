@@ -35,12 +35,13 @@ def handle_mousedown(x,y):
   for i in range (0,6):
     if matrix[Array_X][i] == 1 or matrix[Array_X][i] == -1:
       Array_Y = i-1
-      matrix[Array_X][Array_Y] = Pturn
-      spot(CentreX-1,CentreY-1, 35)
-      break
-    #else:
-    #  Array_Y = 
-  
+      matrix[Array_X][Array_Y] = Pturn      
+      break;
+    else:
+      Array_Y = 6 
+  CentreX = (Array_X+1)*100+75
+  CentreY = (2+Array_Y)*100 +50  
+  spot(CentreX-1,CentreY-1, 35)
   
   # print (CentreX,CentreY,Array_X,Array_Y)
   
