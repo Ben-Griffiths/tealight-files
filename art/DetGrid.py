@@ -44,7 +44,7 @@ def handle_mousedown(x,y):
         elif checkwin(matrix) == False:
           print("Yellow wins")   
           font("150px arial")
-          text)475,550, "Yellow Wins!")
+          text(475,550, "Yellow Wins!")
         return 0
   
 
