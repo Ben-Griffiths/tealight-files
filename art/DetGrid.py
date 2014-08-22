@@ -18,7 +18,7 @@ def handle_mousedown(x,y):
   
   
   # if (matrix[Array_Y-1][Array_X] != 0):
-  if (Array_Y == 6):
+  if (Array_Y == 6 or matrix[Array_Y+1][Array_X] != 0 ):
       if matrix[Array_Y][Array_X] == 0: #!= 1 or matrix[Array_Y][Array_X] != -1:
         if Pturn == 1:
           print(Array_X)
