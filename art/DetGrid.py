@@ -35,5 +35,5 @@ def handle_mousedown(x,y):
   # for y in range (6,0):
   #   if matrix[Array_X][y] == 0:
   #     spot(CentreX-1,CentreY-1, 35)  
-  print(checkwin(matrix))
+  #print(checkwin(matrix))
  
