@@ -17,7 +17,7 @@ def handle_mousedown(x,y):
   CentreY = (2+Array_Y)*100 +50 
   
  
-  if (Pturn == 1):
+  if Pturn == 1:
     color = "red"
     Pturn = -1
     
