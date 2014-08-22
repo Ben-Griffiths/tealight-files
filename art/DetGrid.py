@@ -33,7 +33,13 @@ def handle_mousedown(x,y):
         
         spot(CentreX-1, CentreY-1, 35)
         matrix[Array_Y][Array_X] = -Pturn
-        print(checkwin(matrix))
+        if checkwin(matrix) == True:
+          print("Red wins")
+          global matrix = initialiseMatrix()
+        elif checkwin(matrix) == False:
+          print("Yellow wins")
+          global matrix = initialiseMatrix()
+          
         return 0
   
 
