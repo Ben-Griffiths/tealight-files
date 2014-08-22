@@ -2,8 +2,10 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 from github.andyandywells.art.matrixFunctions import *
 from github.griffithsben.art.connect4_defs import *
 
+def startGame():
+  matrix = initialiseMatrix()
 
-matrix = initialiseMatrix()
+startGame()
 
 Pturn = 1
 def handle_mousedown(x,y):
@@ -35,9 +37,11 @@ def handle_mousedown(x,y):
         matrix[Array_Y][Array_X] = -Pturn
         if checkwin(matrix) == True:
           print("Red wins")
+          startGame()
           
         elif checkwin(matrix) == False:
           print("Yellow wins")
+          startGame()
           
           
         return 0
