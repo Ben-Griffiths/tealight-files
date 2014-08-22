@@ -29,7 +29,7 @@ def handle_mousedown(x,y):
        # if (matrix[Array_X][Array_Y] == 0):
          if (matrix[Array_X][Array_Y] == 0):
           spot(CentreX-1,CentreY-1, 35)
-          matrix[Array_X][Array_Y] = Pturn
+          matrix[Y][Array_X] = Pturn
           print matrix
       spot(CentreX-1,CentreY-1, 35)  
          
