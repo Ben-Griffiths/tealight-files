@@ -35,10 +35,10 @@ def handle_mousedown(x,y):
         matrix[Array_Y][Array_X] = -Pturn
         if checkwin(matrix) == True:
           print("Red wins")
-          matrix = initialiseMatrix()
+          
         elif checkwin(matrix) == False:
           print("Yellow wins")
-          matrix = initialiseMatrix()
+          
           
         return 0
   
