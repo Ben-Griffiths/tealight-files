@@ -25,7 +25,8 @@ def handle_mousedown(x,y):
           color("red")
           Pturn = -1
         else:
-           print(Array_X + " " + Array_Y)
+           print(Array_X)
+           print(Array_Y)
            color("yellow")
            Pturn = 1   
         
