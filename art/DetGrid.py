@@ -25,7 +25,7 @@ def handle_mousedown(x,y):
         else:
           color("yellow")
           Pturn = 1     
-        spot(CentreX, CentreY, 35)
+        spot(CentreX-1, CentreY-1, 35)
         matrix[Array_Y][Array_X] = -Pturn
         print(checkwin(matrix))
         return 0
