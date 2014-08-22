@@ -23,13 +23,13 @@ def handle_mousedown(x,y):
   else:
     color("yellow")
     Pturn = 1     
-  for P in range (20,0):
-    if (matrix[P][Array_X] == 0):
+  #for P in range (7,0):
+  if (matrix[Array_Y][Array_X] == 0):
     # if matrix[Array_X][Array_Y] == 0:
-      CentreY = (2+P)*100 + 50
-      spot(CentreX, CentreY, 35)
-      matrix[P][Array_X] = -Pturn
-      return 0
+    CentreY = (2+P)*100 + 50
+    spot(CentreX, CentreY, 35)
+    matrix[P][Array_X] = -Pturn
+    return 0
   
   
   print(checkwin(matrix))
