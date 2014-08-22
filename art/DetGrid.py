@@ -25,13 +25,13 @@ def handle_mousedown(x,y):
         color("yellow")
         Pturn = 1
     
-      if(CentreX != 0):         
+      #if(CentreX != 0):         
        # if (matrix[Array_X][Array_Y] == 0):
-         if (matrix[Array_X][Array_Y] == 0):
-          spot(CentreX-1,CentreY-1, 35)
-          matrix[Array_X][Array_Y] = Pturn
-          print matrix
-      spot(CentreX-1,CentreY-1, 35)  
+      if (matrix[Array_X][Array_Y] == 0):
+      spot(CentreX-1,CentreY-1, 35)
+      matrix[Array_X][Array_Y] = Pturn
+      print matrix
+      #spot(CentreX-1,CentreY-1, 35)  
          
   # for y in range (6,0):
   #   if matrix[Array_X][y] == 0:
