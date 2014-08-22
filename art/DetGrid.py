@@ -37,7 +37,9 @@ def handle_mousedown(x,y):
         if checkwin(matrix) == True:
           
           print("Red wins")
-          image(200,200,"http://imgur.com/KMjnADM")
+        #  color("red")
+          font("150px arial")
+          text(475,550, "Red Wins!")
           
           
         elif checkwin(matrix) == False:
