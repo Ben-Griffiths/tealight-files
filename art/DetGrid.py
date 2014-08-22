@@ -28,7 +28,7 @@ def handle_mousedown(x,y):
       #if(CentreX != 0):         
        # if (matrix[Array_X][Array_Y] == 0):
       if (matrix[Array_X][Array_Y] == 0):
-      spot(CentreX-1,CentreY-1, 35)
+      spot((CentreX-1),(CentreY-1), 35)
       matrix[Array_X][Array_Y] = Pturn
       print matrix
       #spot(CentreX-1,CentreY-1, 35)  
