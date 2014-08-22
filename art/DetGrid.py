@@ -27,7 +27,8 @@ def handle_mousedown(x,y):
     
   for P in range (6,0):
     if (matrix[P][Array_X] == 0):
-      spot(Array_X, P, 35)
+      CentreY = (2+P)*100 + 50
+      spot(CentreX, CentreY, 35)
       matrix[P][Array_X] = -Pturn
       return 0
   
