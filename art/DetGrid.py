@@ -35,13 +35,16 @@ def handle_mousedown(x,y):
         spot(CentreX-1, CentreY-1, 35)
         matrix[Array_Y][Array_X] = -Pturn
         if checkwin(matrix) == True:
+          font("70px")
+          text(475,550,"Red wins")
           print("Red wins")
           
           
           
         elif checkwin(matrix) == False:
           print("Yellow wins")
-          
+          font("70px")
+          text(475,550,"Yellow wins")
           
           
         return 0
