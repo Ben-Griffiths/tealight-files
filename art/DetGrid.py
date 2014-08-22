@@ -16,34 +16,23 @@ def handle_mousedown(x,y):
   CentreX = (Array_X+1)*100+75 #finds centre point for dot as below
   CentreY = (2+Array_Y)*100 +50 
   
-  #for y in range (6,0):
-  #  if matrix[Array_X][y] == 0:
-  #    if (Pturn == 1): 
-  #      color("red")
-  #      Pturn = -1 
-  #    else:
-  #      color("yellow")
-  #      Pturn = 1
+  for Y in range (6,0):
+    if matrix[Array_X][Y] == 0:
+      if (Pturn == 1): 
+        color("red")
+        Pturn = -1 
+      else:
+        color("yellow")
+        Pturn = 1
     
-     # if(CentreX != 0):         
-     #  # if (matrix[Array_X][Array_Y] == 0):
-     #    if (matrix[Array_X][Array_Y] == 0):
-     #     spot(CentreX-1,CentreY-1, 35)
-     #     matrix[Array_X][Array_Y] = Pturn
-     #     print matrix
-     # spot(CentreX-1,CentreY-1, 35)  
-    try:
-      if (matrix[Array_X][(Array_y-1)] == 0:
-        if (Pturn == 1): 
-          color("red")
-          Pturn = -1 
-        else:
-          color("yellow")
-          Pturn = 1
-        if (matrix[Array_X][Array_Y] == 0):
-            spot(CentreX-1,CentreY-1, 35)
-            matrix[Array_X][Array_Y] = Pturn
-            print matrix
+      if(CentreX != 0):         
+       # if (matrix[Array_X][Array_Y] == 0):
+         if (matrix[Array_X][Array_Y] == 0):
+          spot(CentreX-1,CentreY-1, 35)
+          matrix[Array_X][Array_Y] = Pturn
+          print matrix
+      spot(CentreX-1,CentreY-1, 35)  
+         
   # for y in range (6,0):
   #   if matrix[Array_X][y] == 0:
   #     spot(CentreX-1,CentreY-1, 35)  
