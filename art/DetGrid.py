@@ -38,7 +38,7 @@ def handle_mousedown(x,y):
         if checkwin(matrix) == True:        
           print("Red wins")
         #  color("red")
-        
+          image(350,350, "https://photos-2.dropbox.com/t/0/AAADMd5_ZYX1JR1o2m2Wcn-smmLnF1NQCdP_dF0rf8PdUA/12/85596892/png/1024x768/3/1408705200/0/2/RED_WINS.png/2RKVLGw4E8Oh-w3vRAduhboRA1CZEgjUl5W70FAWTdc")
           box(0,550, 40)
           font("150px arial")
           text(0,550, "P1 Wins!")       
