@@ -4,7 +4,7 @@ from github.griffithsben.art.connect4_defs import *
 
 def startGame():
   matrix = initialiseMatrix()
-
+  return matrix
 startGame()
 
 Pturn = 1
