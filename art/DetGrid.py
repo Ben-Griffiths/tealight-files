@@ -1,4 +1,4 @@
-from tealight.art import (color, line, font, spot, circle, box, image, text, background)
+from tealight.art import (color, line, spot, circle, box, image, text, background)
 from github.andyandywells.art.matrixFunctions import *
 from github.griffithsben.art.connect4_defs import *
 
@@ -35,16 +35,14 @@ def handle_mousedown(x,y):
         spot(CentreX-1, CentreY-1, 35)
         matrix[Array_Y][Array_X] = -Pturn
         if checkwin(matrix) == True:
-          font("70px")
-          text(475,550,"Red wins")
+          
           print("Red wins")
           
           
           
         elif checkwin(matrix) == False:
           print("Yellow wins")
-          font("70px")
-          text(475,550,"Yellow wins")
+         
           
           
         return 0
