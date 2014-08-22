@@ -6,6 +6,7 @@ matrix = initialiseMatrix()
 
 
 Pturn = 1
+
 def handle_mousedown(x,y):
   global Pturn
   Array_X = (x - offset_x) // cell_size #sets xcoord for array from click
@@ -35,6 +36,7 @@ def handle_mousedown(x,y):
         matrix[Array_Y][Array_X] = -Pturn
         if checkwin(matrix) == True:
           print("Red wins")
+          
           
           
         elif checkwin(matrix) == False:
