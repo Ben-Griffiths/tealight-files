@@ -22,7 +22,7 @@ def handle_mousedown(x,y):
     Pturn = -1
     spot(CentreX,CentreY,35)
   else:
-    color = "yellow"
+    color("yellow")
     Pturn = 1
   #spot(CentreX,CentreY,35)  
   #for P in range (6,0):
