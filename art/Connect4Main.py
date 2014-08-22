@@ -3,3 +3,7 @@ from github.andyandywells.art.matrixFunctions import *
 from github.GriffithsBen.art.DetGrid import *
 
 grid.drawGrid()
+
+#BasRegi
+#andyandywells
+#NickMcAlpin
