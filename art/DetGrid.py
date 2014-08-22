@@ -31,7 +31,7 @@ def handle_mousedown(x,y):
         spot(CentreX-1,CentreY-1, 35)
         matrix[Y][Array_X] = Pturn
         print matrix
-      spot(CentreX-1,CentreY-1, 35)  
+    spot(CentreX-1,CentreY-1, 35)  
          
   # for y in range (6,0):
   #   if matrix[Array_X][y] == 0:
