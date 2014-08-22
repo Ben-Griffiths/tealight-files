@@ -16,14 +16,7 @@ def handle_mousedown(x,y):
   CentreX = (Array_X+1)*100+75 #finds centre point for dot as below
   CentreY = (2+Array_Y)*100 +50 
   
- 
-  if Pturn == 1:
-    color("red")
-    Pturn = -1
-  else:
-    color("yellow")
-    Pturn = 1     
-  #for P in range (7,0):
+  
   if (matrix[Array_Y][Array_X-1] != 0 or (Array_X-1) == -1):
       if matrix[Array_Y][Array_X] == 0: #!= 1 or matrix[Array_Y][Array_X] != -1:
         if Pturn == 1:
