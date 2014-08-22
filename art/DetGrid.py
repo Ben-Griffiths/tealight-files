@@ -20,7 +20,8 @@ def handle_mousedown(x,y):
   if (matrix[Array_Y][Array_X-1] != 0 or (Array_X-1) == -1):
       if matrix[Array_Y][Array_X] == 0: #!= 1 or matrix[Array_Y][Array_X] != -1:
         if Pturn == 1:
-          print(Array_X + " " + Array_Y)
+          print(Array_X)
+          print(Array_Y)
           color("red")
           Pturn = -1
         else:
