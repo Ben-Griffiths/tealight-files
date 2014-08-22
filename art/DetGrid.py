@@ -19,7 +19,6 @@ def handle_mousedown(x,y):
   
   
   # if (matrix[Array_Y-1][Array_X] != 0):
-  for i in range (6,0):
     if (Array_Y == 6 or matrix[Array_Y+1][Array_X] != 0 ):
       if matrix[Array_Y][Array_X] == 0: #!= 1 or matrix[Array_Y][Array_X] != -1:
         if Pturn == 1:
@@ -34,22 +33,18 @@ def handle_mousedown(x,y):
            Pturn = 1   
         
         spot(CentreX-1, CentreY-1, 35)
-        matrix[Array_Y][Array_X] = -Pturn
+        matrix[Array_Y][Array_X] = -Pturn       
         
-        
-        if checkwin(matrix) == True:
-          
+        if checkwin(matrix) == True:        
           print("Red wins")
         #  color("red")
           font("150px arial")
-          text(475,550, "Red Wins!")
-          
+          text(475,550, "Red Wins!")       
           
         elif checkwin(matrix) == False:
-          print("Yellow wins")
-         
-          
-          
+          print("Yellow wins")   
+          font("150px arial")
+          text)475,550, "Yellow Wins!")
         return 0
   
 
