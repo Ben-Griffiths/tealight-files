@@ -17,7 +17,7 @@ def handle_mousedown(x,y):
   CentreY = (2+Array_Y)*100 +50 
   
   for y in range (6,0):
-    if matrix[Array_X][] == 0:
+    if matrix[Array_X][y] == 0:
       if (Pturn == 1): 
         color("red")
         Pturn = -1 
