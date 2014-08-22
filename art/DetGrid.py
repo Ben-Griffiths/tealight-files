@@ -32,7 +32,7 @@ def handle_mousedown(x,y):
      #     matrix[Array_X][Array_Y] = Pturn
      #     print matrix
      # spot(CentreX-1,CentreY-1, 35)  
-    try
+    try:
       if (matrix[Array_X][(Array_y-1)] == 0:
         if (Pturn == 1): 
           color("red")
